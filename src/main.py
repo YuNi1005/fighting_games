@@ -1,5 +1,6 @@
 import pygame
 from game import Game
+import sys
 
 def main():
     pygame.init()
@@ -14,6 +15,7 @@ def main():
         game.render()
 
     pygame.quit()
+    sys.exit()
 
 if __name__ == "__main__":
     main()
